@@ -6,7 +6,7 @@ function Form(props) {
   
   function handleSumbit(e) {
       e.preventDefault()
-      props.addTask("Say hello!")
+      props.addTask(name)
       setName('')
   }
 
